@@ -1,0 +1,28 @@
+{
+  "name": "clashgraph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@langchain/cohere": "^1.0.4",
+    "@langchain/core": "^1.1.40",
+    "@langchain/google": "^0.1.10",
+    "@langchain/langgraph": "^1.2.9",
+    "@langchain/mistralai": "^1.0.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
